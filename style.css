@@ -1,0 +1,156 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+h1{
+    font-size: 26px;
+}
+
+@font-face {
+    font-family: Norse;
+    src: url('assets/fonts/Norse-Bold.otf');
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-side{
+    flex: 1;
+    position: relative;
+}
+
+.cover{
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-box{
+    margin-top: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.title{
+    margin: 0;
+    font-family: Norse;
+    font-size: 100px;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+}
+
+.copyrights{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 14px;
+}
+
+.author, .source{
+    color: white;
+}
+
+.right-side{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-box, .submit-box{
+    flex: 1;
+    background-color: #f8f9fa;
+    padding-left: 50px;
+}
+
+.description{
+    padding-top: 50px;
+}
+.form-box{
+    flex: 1;
+    padding-left: 50px;
+    box-shadow: 0 5px 5px 4px rgb(0 0 0 / 10%);
+}
+
+.description{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.submit-box{
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #E5E7EB; 
+}
+
+.inputs{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.button{
+    cursor: pointer;
+    box-shadow: inset 0px -1px 3px #888888;
+    background-color: #596D48;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.error-message{
+    color: rgb(173, 2, 2);
+    margin: 0;
+}
+
+.error{
+    border: 1px solid rgb(173, 2, 2);
+    margin-bottom: 2px;
+}
+
+.login-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
+}
