@@ -117,6 +117,12 @@ input{
     border: 1px solid #E5E7EB; 
 }
 
+input:focus {
+    outline: none !important;
+    border:1px solid blue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
 .inputs{
     width: 45%;
     display: flex;
